@@ -2,8 +2,10 @@
 
 1. DevOps
 
-2. CI/CD
+2. Infastructure as Code: Terraform & Terratest
 
-3. Serverless Azure and AWS
+3. CI/CD
 
-4. Containerization & Kubernetes
+4. Serverless Azure and AWS
+
+5. Containerization & Kubernetes
