@@ -8,13 +8,13 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = var.region
 }
 
 module "webserver" {
-  source = "./modules/ec2"
+  source = "../../"
 
-  servername = "terraformdemo21"
+  servername = var.servername
 
   size = "t3.micro"
 }
