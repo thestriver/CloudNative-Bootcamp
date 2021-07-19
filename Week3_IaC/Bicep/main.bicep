@@ -2,7 +2,7 @@ param name string = 'uniquestoragename2021344'
 param location string = 'eastus'
 
 
-var storageSku = 'Standard_LRS'
+var storageSku = 'Standard_LRS' 
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2020-08-01-preview' = {
   name: name
